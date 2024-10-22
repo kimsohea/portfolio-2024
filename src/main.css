@@ -68,9 +68,9 @@ main {
   height: 250vh;
 }
 
-/* .site_sec.active .site_mockup {
+.site_sec.active .site_deploy .site_mockup.active {
   display: block;
-} */
+}
 
 .site_sec .site_icons {
   display: flex;

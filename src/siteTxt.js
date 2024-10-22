@@ -15,9 +15,8 @@ const textArr = [
     subTit: "진행요소: 메인 페이지  Vue 버전 업그레이드(Vue3)",
     paragraph: `글로벌 브랜드 파격세일, 본사 창고 대방출, 원가이하 쇼핑몰 깔세몰 리퍼상품들을 팔고 있는 사이트입니다.<br /><br />메인페이지 내의 요소들을 Vue2 에서 Vue3로 업그레이드하는 작업을 진행하였으며, 기존 코드에서 이전의 퍼플리셔가 구현해 둔 jquery를 제거해서 javascript로 동작할 수 있도록 리뉴얼 작업을 진행했었습니다. <br /><br />Vue3로 업그레이드 중에 상태 관리 라이브러리 vuex를 mapGetter이 아닌 mapState로 변경하는 작업도 같이 진행했었습니다.`,
     imgSrc: "./img/ggalse_mockup.png",
-
-    sitePc: "https://gabangpop.co.kr/",
-    siteMo: "https://m.gabangpop.co.kr/",
+    sitePc: "https://ggalsemall.com/",
+    siteMo: "https://m.ggalsemall.com/",
   },
   {
     tit: "오보즈 코리아",
@@ -26,9 +25,8 @@ const textArr = [
       "진행요소: 메인 페이지 퍼블리싱 및 Vue 버전 업그레이드(Vue3), 이벤트페이지 진행, shop by api 연동",
     paragraph: `하이킹, 트레일 러닝 전문 브랜드 오보즈 풋웨어 코리아 공식 온라인 스토어 True to the trail 사이트입니다.<br /><br />메인페이지 요소들을 퍼블리싱 후 shop by api를 이용해 데이터 연동작업을 진행했습니다. 운영을 지속하는 중에도 추가 단락이 생기면 추가 단락을 만들어서 넣기도 하는 보수 작업도 같이 진행했었습니다. <br /><br />기존 운영하던 사이트들에서 메인페이지와 일부 페이지를 제외한 상품 전시 페이지라던지 공지사항같은 페이지 내 아이콘 요소들을 빠르게 렌더링할 수 있도록 figma로 구현해서 사이트 구축시 더 시간이 덜 소요되도록 작업을 했었습니다.`,
     imgSrc: "./img/oboz_mockup.png",
-
-    sitePc: "https://gabangpop.co.kr/",
-    siteMo: "https://m.gabangpop.co.kr/",
+    sitePc: "https://obozfootwear.co.kr/",
+    siteMo: "https://m.obozfootwear.co.kr/",
   },
   {
     tit: "마모트 코리아",
@@ -37,9 +35,8 @@ const textArr = [
       "진행요소: 메인 페이지 퍼블리싱 및 Vue 버전 업그레이드(Vue3), 이벤트페이지 진행, shop by api 연동",
     paragraph: `고어텍스 근본 브랜드 마모트코리아, 아웃도어 액티비티에 최적화된 의류, 가방, 모자 등 자유롭고 독창적이며 비일상을 체험할 수 있는 스타일을 제공하는 사이트입니다.<br /><br />메인페이지 요소들을 퍼블리싱 후 shop by api를 이용해 데이터 연동작업을 진행했습니다. 운영을 지속하는 중에도 추가 단락이 생기면 추가 단락을 만들어서 넣기도 하는 보수 작업도 같이 진행했었습니다. <br /><br />사이트 내의 Find A Store 페이지  리뉴얼을 하면서 shop by api를 사용했습니다.`,
     imgSrc: "./img/marmot_mockup.png",
-
-    sitePc: "https://gabangpop.co.kr/",
-    siteMo: "https://m.gabangpop.co.kr/",
+    sitePc: "https://marmotkorea.kr/",
+    siteMo: "https://m.marmotkorea.kr/",
   },
   {
     tit: "웨어라운지",
@@ -47,9 +44,8 @@ const textArr = [
     subTit: "진행요소: 메인 페이지 퍼블리싱, shop by api 연동",
     paragraph: `브랜드 큐레이션 편집샵 웨어라운지 사이트 입니다.<br /><br />메인페이지 요소들을 퍼블리싱 후 shop by api를 이용해 데이터 연동작업을 진행했습니다. pc 사이트가 가로값이 애매해서 css 작업 중 %로 계산해서 구현한 사이트입니다.`,
     imgSrc: "./img/wearlounge_mockup.png",
-
-    sitePc: "https://gabangpop.co.kr/",
-    siteMo: "https://m.gabangpop.co.kr/",
+    sitePc: "https://wearlounge.com/",
+    siteMo: "https://m.wearlounge.com/",
   },
   {
     tit: "WLAB",
@@ -57,17 +53,34 @@ const textArr = [
     subTit: "진행요소: 메인 페이지 퍼블리싱, shop by api 연동, 마이페이지 구현",
     paragraph: `No1. 고커버/고발색 페이스메이크업과 메이크업핏을 살리는 하이브리드 스킨케어 전문 브랜드 사이트 입니다.<br /><br />메인페이지 요소들을 퍼블리싱 후 shop by api를 이용해 데이터 연동작업을 진행했습니다. 이 사이트 내의 회원등급페이지를 구현했으며 `,
     imgSrc: "./img/wlab_mockup.png",
-
-    sitePc: "https://gabangpop.co.kr/",
-    siteMo: "https://m.gabangpop.co.kr/",
+    sitePc: "https://wlab.co.kr/",
+    siteMo: "https://m.wlab.co.kr/",
+  },
+  {
+    tit: "아이카사 코리아",
+    skill: "React, TypeScript, Gulp.js",
+    subTit: "진행요소: Gulp.js를 이용한 사이트 퍼블리싱 및 프로젝트 일부 유지",
+    paragraph: `아이카사 본사와 국내 독점 수입·판매 (Exculsive)를 맺는 공식 사이트 입니다.<br /><br />Gulp.js 를 이용해 메인페이지 요소들의 퍼블리싱을 진행했으며 배포된 후 일부 요소들의 유지를 진행했습니다.`,
+    imgSrc: "./img/aladin_mockup.png",
+    sitePc: "https://aykasa-korea.co.kr/",
+    siteMo: "",
+  },
+  {
+    tit: "NHN Wetoo",
+    skill: "React, TypeScript, Gulp.js",
+    subTit: "진행요소: Gulp.js를 이용한 사이트 퍼블리싱 및 프로젝트 일부 유지",
+    paragraph: `NHN wetoo는 모든 고객들이 감각적인 개성과 각기 다른 취향을 마음껏 연출하고 표현할 수 있도록 맞춤형 라이프스타일을 공유하고 제안하는 E-Commerce 전문기업 공식 사이트 입니다.<br /><br />Gulp.js 를 이용해 메인페이지 요소들의 퍼블리싱을 진행했으며 배포된 후 일부 요소들의 유지를 진행했습니다.`,
+    imgSrc: "./img/aladin_mockup.png",
+    sitePc: "https://nhnwetoo.com/",
+    siteMo: "",
   },
   {
     tit: "알라딘",
-    skill: "React, REST API, PhotoShop",
+    skill: "React, TypeScript, REST API, PhotoShop",
     subTit: "진행요소: 프로젝트 구현",
-    paragraph: `No1. 고커버/고발색 페이스메이크업과 메이크업핏을 살리는 하이브리드 스킨케어 전문 브랜드 사이트 입니다.<br /><br />메인페이지 요소들을 퍼블리싱 후 shop by api를 이용해 데이터 연동작업을 진행했습니다. 이 사이트 내의 회원등급페이지를 구현했으며 `,
+    paragraph: `기존의 알라딘 중고서점 사이트를 개인적으로 리뉴얼해서 github에 배포한 프로젝트입니다.<br /><br />메인페이지, 각 카테고리별 1뎁스 메인 페이지 등을 구성해서 만든 사이트입니다. React템플릿을 이용해서 생성 후 github를 통해 issue 및 pull requests를 활용해 사이트를 구성해나갔습니다. google actions를 이용해 알라딘 사이트 내에서 제공하는 api를 활용해서 사이트 내부 요소들을 꾸렸습니다.`,
     imgSrc: "./img/aladin_mockup.png",
-
-    sitePc: "https://gabangpop.co.kr/",
+    sitePc: "https://kimsohea.github.io/react-deploy/",
+    siteMo: "",
   },
 ];
