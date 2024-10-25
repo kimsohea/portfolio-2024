@@ -8,6 +8,10 @@ main {
   font-family: "Noto Sans KR", sans-serif;
 }
 
+main {
+  min-width: 1200px;
+}
+
 ul,
 ol {
   margin: 0;

@@ -56,7 +56,7 @@ main {
   width: 100%;
   height: 100%;
   min-height: 95vh;
-  padding-top: 80px;
+  padding-top: 50px;
   background: #000;
 }
 
@@ -65,7 +65,7 @@ main {
 } */
 
 .dummy {
-  height: 250vh;
+  height: 190vh;
 }
 
 .site_sec.active .site_deploy .site_mockup.active {
@@ -96,7 +96,7 @@ main {
   column-gap: 80px;
   justify-content: center;
   align-items: center;
-  margin-top: 65px;
+  margin-top: 55px;
 }
 
 .site_sec .filter {
@@ -170,4 +170,50 @@ main {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 10px;
+}
+
+.contact {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  position: relative;
+  width: fit-content;
+  padding: 5px 0;
+  margin: 0 auto;
+  font-size: 45px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  user-select: none;
+}
+
+.contact h2::before {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  transform: translateX(-50%);
+  background-color: #fff;
+  content: "";
+}
+
+.contact p {
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 100;
+  user-select: none;
+}
+
+.contact ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.contact ul li::selection {
+  color: #000;
+  background-color: #fff;
 }

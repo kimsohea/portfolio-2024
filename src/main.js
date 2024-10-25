@@ -46,6 +46,8 @@
           if (idx > 5) {
             siteInfo[5].innerText = "사이트 바로가기";
             siteInfo[5].style.display = "none";
+          } else {
+            siteInfo[5].style.display = "block";
           }
 
           // idx 범위 내에서 양쪽의 active 클래스 제거
