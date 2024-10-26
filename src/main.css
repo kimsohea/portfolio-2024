@@ -245,6 +245,10 @@ main {
 }
 
 @media (max-width: 1200px) {
+  .intro_sec h1::before {
+    width: 110%;
+  }
+
   .site_sec .site_icons li {
     width: 70px;
     height: 70px;
@@ -401,6 +405,10 @@ main {
 }
 
 @media (max-width: 600px) {
+  .intro_sec {
+    height: 75vh;
+  }
+
   .intro_sec h1 {
     width: 80%;
   }
@@ -419,8 +427,18 @@ main {
   }
 
   .intro_sec .center {
-    width: 30rem;
-    height: 27rem;
+    left: -18vw;
+    width: 125vw;
+    height: 60vh;
+  }
+
+  .intro_sec .center img:nth-of-type(2) {
+    left: 8vw;
+    width: 120vw;
+  }
+
+  .site_sec {
+    height: 100vh;
   }
 
   .site_sec.active {

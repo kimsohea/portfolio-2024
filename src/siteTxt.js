@@ -77,7 +77,7 @@ const textArr = [
   {
     tit: "알라딘",
     skill: "React, TypeScript, REST API, PhotoShop",
-    subTit: "진행요소: 프로젝트 구현",
+    subTit: "진행요소: 프로젝트 구현 및 알라딘 api 자동 스크립트 구성",
     paragraph: `기존의 알라딘 중고서점 사이트를 개인적으로 리뉴얼해서 github에 배포한 프로젝트입니다.<br /><br />메인페이지, 각 카테고리별 1뎁스 메인 페이지 등을 구성해서 만든 사이트입니다. React템플릿을 이용해서 생성 후 github를 통해 issue 및 pull requests를 활용해 사이트를 구성해나갔습니다. google actions를 이용해 알라딘 사이트 내에서 제공하는 api를 활용해서 사이트 내부 요소들을 꾸렸습니다.`,
     imgSrc: "./img/aladin_mockup.png",
     sitePc: "https://kimsohea.github.io/react-deploy/",
