@@ -22,8 +22,12 @@
       }
     }
 
+    let dummyHeight = 150;
+
+    if (window.innerWidth > 900) dummyHeight -= 200;
+
     document.querySelector(".dummy").style.height =
-      scrollArr[9] - introTop + 150 + "px";
+      scrollArr[9] - introTop + dummyHeight + "px";
 
     window.addEventListener("scroll", function () {
       let scroll = this.scrollY;
